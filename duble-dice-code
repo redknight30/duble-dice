@@ -1,0 +1,18 @@
+import random
+choice=''
+print ("welcome to duble dice sim")
+for count in range(100000**900000):
+    loaded_die=(1, 2, 3, 4, 5, 6)
+    roll_1= random.choice(loaded_die)
+    
+    loaded_die=(1, 2, 3, 4, 5, 6)
+    roll_2= random.choice(loaded_die)
+
+    choice = input('do you want to roll the die [Y/N]:')
+    if choice == 'N':
+        print("thank you for yousing duble dice sim have a nice day :)")
+        break
+        choice = ' '
+    if choice == 'Y':
+        print(roll_1)
+        print(roll_2)
