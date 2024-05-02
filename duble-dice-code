@@ -17,4 +17,4 @@ for count in range(100000**900000):
         total=roll_1+roll_2
         print(roll_1)
         print(roll_2) 
-        print(total)
+        print("the total is",total)
